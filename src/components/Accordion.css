@@ -1,0 +1,14 @@
+/* O espaço entre #accordion e .p-card-body é fundamental.
+Dessa forma, estamos selecionando todos os elementos
+que estejam sob o efeito da classe p-card-body e que sejam descendentes (filhos diretos ou indiretos) de um elemento que tenha id igual a accordion.
+Se o espaço for removido, estaremos selecionando elementos que estejam sob o efeito da classe CSS p-card-boy e que tenham o id igual a accordion.
+*/
+#accordion .p-card-body{
+    padding: 8px !important
+}
+
+#accordion .p-card-content {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+}
+
